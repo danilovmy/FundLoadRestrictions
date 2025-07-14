@@ -57,9 +57,9 @@ Run ´pytest -m gptests´ in terminal / command prompt
 2. input data is always valid
 3. There are multiple entities with same id (load id) not existed in input.txt
 4. Not valid loads are ignored during calculation
-6. id prime check function uses sympy.ntheory.isprime function.
-5. Any exceptions during processing not handled, except validation errors (used in processing pipeline), accordingly to assessment remark : "Extensive error handling is not necessary"
-7. Whole script is written in python as a plain tny and short code with reduced complexity , accordingly to assessment remark : "Do not over-design ..."
+5. id prime check function uses sympy.ntheory.isprime function.
+6. Any exceptions during processing not handled, except validation errors (used in processing pipeline), accordingly to assessment remark : "Extensive error handling is not necessary"
+7. Whole script is written in python as a plain tny and short code with reduced complexity and should be run locally without any docker containers or other external dependencies, except python and sympy, accordingly to assessment remark : "Do not over-design ..."
 
 # Comments:
 1. Enterprize version of this solution with additional features can be found in https://github.com/danilovmy/FundLoadRestrictions folder, it builded on Django framework and offers API-interface for user interaction. It not polished yet, but it works.
