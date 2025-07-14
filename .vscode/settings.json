@@ -1,0 +1,14 @@
+{
+    "zencoder.repoInfo.lastCheckTime": 1752443816994,
+    "zencoder.repoInfo.currentWarningState": false,
+    "zencoder.enableRepoIndexing": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./easy_version",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
