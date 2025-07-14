@@ -2,7 +2,7 @@
 In the financial services industry, it's critical to manage the flow of funds into customer accounts while adhering to specific velocity limits and other controls
 
 # How to start:
-1. Create a virtual environment
+1. Create a virtual environment for Python 3.13
 2. Activate the virtual environment
 3. Install requirements.txt file using ´pip install -r requirements.txt´
 4. Run ´python plain.py´ in terminal / command prompt
