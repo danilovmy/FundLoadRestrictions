@@ -62,8 +62,8 @@ Run ´pytest -m gptests´ in terminal / command prompt
 7. Whole script is written in python as a plain tny and short code with reduced complexity , accordingly to assessment remark : "Do not over-design ..."
 
 # Comments:
-1. Enterprize version of this solution with additional features can be found in enterprise_version folder, it builded on Django framework and offers API-interface for user interaction. https://github.com/danilovmy/FundLoadRestrictions
+1. Enterprize version of this solution with additional features can be found in https://github.com/danilovmy/FundLoadRestrictions folder, it builded on Django framework and offers API-interface for user interaction. It not polished yet, but it works.
 
 2. Creation of Plain version of this solution takes about 6 hours, including tests development. Although Enterprize version was created in less than 3 hours. https://github.com/danilovmy/FundLoadRestrictions/tree/main/easy_version
 
-3. To start working i use LLms, copy of prompts can be found in repository, but after one hour of work i "hit my plan usage limits and should Upgrade Agent Plan to continue" thats why this solution was created without LLMs usage.
+3. On start i use LLms, examples of prompts can be found in repository, but after one hour of work i "hit my plan usage limits and should Upgrade Agent Plan to continue" thats why this solution was created without LLMs usage.
